@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="2422024968540fa8eb3dbf929735c27bebe51139" datatype="html">
+        <source>Página Web Pessoal</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="425bbee8e7e299939a0357f8adf4e1b1dbbf9926" datatype="html">
+        <source>Desenvolvedor Java</source>
+        <target/>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
