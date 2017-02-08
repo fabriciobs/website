@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { NavbarComponent } from './navbar.component';
+import { AppComponent } from './app.component';
+import { HeaderFbsComponent } from './header-fbs/header-fbs.component';
+import { NavbarFbsComponent } from './navbar-fbs/navbar-fbs.component';
 
 @NgModule({
   declarations: [
-    NavbarComponent
+    AppComponent,
+    HeaderFbsComponent,
+    NavbarFbsComponent
   ],
   imports: [
     BrowserModule,
@@ -15,6 +19,6 @@ import { NavbarComponent } from './navbar.component';
     HttpModule
   ],
   providers: [],
-  bootstrap: [NavbarComponent]
+  bootstrap: [AppComponent]
 })
-export class NavbarModule { }
+export class AppModule { }
