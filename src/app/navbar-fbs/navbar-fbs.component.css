@@ -1,11 +1,44 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
 
-  /* Note: Try to remove the following lines to see the effect of CSS positioning */
-  .affix {
-      top: 0;
-      width: 100%;
-  }
+/* Note: Try to remove the following lines to see the effect of CSS positioning */
+.affix {
+    top: 0;
+    width: 100%;
+    background-color: black; /* #e21529; */
+    color: white;
+}
 
-  .affix + .container-fluid {
-      padding-top: 70px;
-  }
+.affix-top {
+    top: 0;
+    width: 100%;
+    background-color: black; /* #e21529; */
+    color: white;
+}
+
+.navbar-inverse {
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    background-color: black; /* #e21529; */
+    color: #ff000c;
+}
+
+.item-navbar>a {
+    font-weight: 500;
+    font-family: 'Six Caps', cursive;
+    font-size: 30px;
+    line-height: 1.1;
+    color: white;
+}
+
+.item-navbar>a:hover {
+    color: #ff000c;
+}
+
+.fbs-brand > a{
+    font-size: 30px;
+    line-height: 1.1;
+    color: white;
+}
+

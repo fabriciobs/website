@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Pinyon+Script|Six+Caps|Tangerine|Montserrat);
+
+header {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 200px;
+  text-align: center;
+  color: white;
+  background: url(img/thom-527.jpg) no-repeat center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.title-header {
+    font-weight: 300;
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    color: white;
+    width: 100%;
+    text-align: right;
+}
+.title-header > small {
+  color: white;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 30px;
+}

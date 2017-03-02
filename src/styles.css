@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(https://fonts.googleapis.com/css?family=Pinyon+Script|Six+Caps|Tangerine|Lobster+Two|Rancho);
+
+body {
+    background-color: black;
+}
+
+.name {
+    color: white;
+    font-family: 'Pinyon Script', cursive;
+}
+
+.section-title {
+    font-family: 'Six Caps', cursive;
+    font-size: 50px;
+    color: #ff000c;
+    text-align: center;
+}
+
+section {
+    padding-top: 100px;
+}
