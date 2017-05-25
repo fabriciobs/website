@@ -1,0 +1,20 @@
+#compet-tec {
+    width: 80%;
+    text-align: center;
+}
+
+.neutro {
+    background-color: white;
+    width: 25%;
+    height: 10px;
+}
+
+.preenchido {
+    background-color: blue;
+    width: 50%;
+    height: 10px;
+}
+
+.timeline {
+    width: 100%;
+}

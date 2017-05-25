@@ -1,18 +1,11 @@
 <section id="compet-tec">
-  <h1> Competência Técnica </h1>
-  <h1> Competência Técnica </h1>
-  <h1> Competência Técnica </h1>
-  <h1> Competência Técnica </h1>
-  <h1> Competência Técnica </h1>
-  <h1> Competência Técnica </h1>
-  <h1> Competência Técnica </h1>
-  <h1> Competência Técnica </h1>
-  <h1> Competência Técnica </h1>
-  <h1> Competência Técnica </h1>
-  <h1> Competência Técnica </h1>
-  <h1> Competência Técnica </h1>
-  <h1> Competência Técnica </h1>
-  <h1> Competência Técnica </h1>
-  <h1> Competência Técnica </h1>
-  <h1> Competência Técnica </h1>
+<div style="display: block">
+  <canvas id="myCanvas" baseChart
+          [options]="barChartOptions"
+          [datasets]="radarChartData"
+          [labels]="radarChartLabels"
+          [chartType]="radarChartType"
+          (chartHover)="chartHovered($event)"
+          (chartClick)="chartClicked($event)"></canvas>
+</div>
 </section>

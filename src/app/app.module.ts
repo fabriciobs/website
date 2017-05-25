@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+import { ChartsModule } from 'ng2-charts';
+
 import { AppComponent } from './app.component';
 import { HeaderFbsComponent } from './header-fbs/header-fbs.component';
 import { NavbarFbsComponent } from './navbar-fbs/navbar-fbs.component';
@@ -26,7 +28,8 @@ import { CompetTecFbsComponent } from './compet-tec-fbs/compet-tec-fbs.component
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
